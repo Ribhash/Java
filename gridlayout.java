@@ -20,7 +20,7 @@ public class gridlayout {
         f.add(b6);
         f.setSize(300,300);
         f.setVisible(true);
-        f.setLayout(new GridLayout(3,3));
+        f.setLayout(new GridLayout(2,3));
     }
     public static void main(String[] args)
     {
