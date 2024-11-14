@@ -4,7 +4,7 @@ public class Border {
 JFrame f;    
  Border()
 {
-    f = new JFrame();
+    f = new JFrame("Border Layout");
     JButton b1=new JButton("NORTH");
     JButton b2= new JButton ("SOUTH");
     JButton b3= new JButton ("EAST");

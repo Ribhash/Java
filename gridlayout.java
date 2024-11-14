@@ -1,11 +1,11 @@
-import java.awt.GridLayout;
+import java.awt.*;
 import javax.swing.*;
 
 public class gridlayout {
     JFrame f;
     gridlayout()
     {
-        f = new JFrame();
+        f = new JFrame("Grid Layout");
         JButton b1= new JButton("1");
         JButton b2= new JButton("2");
         JButton b3= new JButton("3");
