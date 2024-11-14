@@ -1,6 +1,5 @@
 import java.awt.*;
 import javax.swing.*;
-
 public class Border {
 JFrame f;    
  Border()
