@@ -1,14 +1,19 @@
 import java.awt.*;
 import javax.swing.*;
- class textfield extends JFrame {
-    public textfield()
+ class textfield  {
+     textfield()
     {
+        JFrame f =new JFrame();
+        JLabel label = new JLabel("Name");
         JTextField j = new JTextField(20);
-        add(j);
-        setLayout(new FlowLayout());
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(400,400);
-        setVisible(true);
+        JPasswordField p = new JPasswordField();
+        f.add(label);
+        f.add(j);
+        f.add(p);
+        f.setLayout(new FlowLayout());
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setSize(400,400);
+        f.setVisible(true);
 
 
     }
